@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner
+{
+    width: 100%;
+    height: 80em;
+    background-image: url(photo/backgroundPhoto.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    width: 180px;
+    border-radius: 200px;
+    border: 2px solid #2f4f4f;
+}
+.navbar ul li 
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-size: 20px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #F0D274;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover::after
+{
+    width: 100%;
+}
+.navbar ul li a:hover
+{
+    color: orange;
+}
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #fff;
+    
+}
+h1
+{
+    margin: auto;
+    margin-left: 10%;
+    font-size: 100px;
+    border-radius: 60px;
+    padding: 20px;
+}
+p
+{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+    font-size: 30px;
+    color: #fff;
+}
+.dish{
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 100px;
+    padding-left: 8em;
+    height: 300px;
+    width: 200px;
+}
+
